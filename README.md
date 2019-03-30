@@ -1,9 +1,9 @@
-#IsaraS8OpenDeepLearning
+# IsaraS8OpenDeepLearning
 
 Repository contenant les différents scripts Python nécessaires à la réalisation d'un exemple simple de classification d'images par un réseau neuronal convolutif.
 Construit pour illustrer les TD sur Git, Python et Deep Learning du module S8-OPEN d'ISARA4.
 
-**Logiciels requis**
+**Logiciels requis :**
 Notepad++ ou autre éditeur de texte brut
 Firefox
 Gecko Driver (Optionnel - pour faire du Web scraping avec Python et Firefox en prenant le contrôle du navigateur) : https://github.com/mozilla/geckodriver/releases
