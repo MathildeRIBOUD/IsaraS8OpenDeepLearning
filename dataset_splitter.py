@@ -2,11 +2,18 @@
 """
 Created on Thu Mar 21 14:49:01 2019
 
-@author: cberteletti
+@author: Cédric Berteletti
 
 Given a raw folders containing different sub-folders of images to classify,
 generate two subfolders for the training and test datasets for training,
 for example, a Convolutional Neural Network
+
+Usage examples :
+_ by command line :
+    python dataset_splitter.py --raw_path "dataset/raw_set" --test_path "dataset/test_set"
+        --training_path "dataset/training_set" --training_percentage 80
+_ or directly setting the parameters with the global constants
+    and starting the script without command line parameters
 """
 
 
@@ -21,6 +28,7 @@ BASE_PATH = "dataset"
 RAW_DATASET_PATH = "raw_set"
 TEST_DATASET_PATH = "test_set"
 TRAINING_DATASET_PATH = "training_set"
+TRAINING_POURCENTAGE = 80
 
 
 def split_dataset(raw_path, test_path, training_path, training_percentage):
@@ -77,7 +85,7 @@ def main(args):
     parser.add_argument("-t", "--training_path",
                         default=os.path.join(BASE_PATH, TRAINING_DATASET_PATH), type=str,
                         help="Path for the training images")
-    parser.add_argument("-p", "--training_percentage", default=80, type=int,
+    parser.add_argument("-p", "--training_percentage", default=TRAINING_POURCENTAGE, type=int,
                         help="Percentage of the images used for the training set")
     args = parser.parse_args()
     raw_path = args.raw_path

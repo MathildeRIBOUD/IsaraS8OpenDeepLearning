@@ -8,9 +8,9 @@ Adapted for Python 3
 Original work: https://gist.github.com/genekogan/ebd77196e4bf0705db51f86431099e57
 adapted from http://stackoverflow.com/questions/20716842/python-download-images-from-google-image-search
 
-Example usage:
-_ by command line : python google_image_search_scraper.py --search "cat" --num_images 10 --directory "dataset/"
-_ or directly setting the parameters in the main method
+Usage examples :
+_ by command line : python google_image_search_scraper.py --search "cat" --nb_images 10 --directory "dataset/"
+_ or directly setting the parameters in the main method and starting the script without command line parameters
 
 """
 
@@ -68,12 +68,12 @@ def main(args):
         # parse the command line parameters if any
         parser = argparse.ArgumentParser(description="Scrap Google images")
         parser.add_argument("-s", "--search", default="gazelle", type=str, help="Search term")
-        parser.add_argument("-n", "--num_images", default=10, type=int, help="Nb images to save")
+        parser.add_argument("-n", "--nb_images", default=10, type=int, help="Nb images to save")
         parser.add_argument("-f", "--first_index", default=0, type=int, help="First image to save")
         parser.add_argument("-d", "--directory", default="data/", type=str, help="Save directory")
         args = parser.parse_args()
         query = [args.search]
-        max_images = args.num_images
+        max_images = args.nb_images
         first_image_index = args.first_index
         save_directory = args.directory
     else:
