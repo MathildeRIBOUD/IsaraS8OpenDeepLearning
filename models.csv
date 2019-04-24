@@ -1,0 +1,25 @@
+Nombre de classes, Nombre de neurones dans la couche complètement connectée, Dataset d'entraînement, Nombre d'images d'entraînement, Nombre passes, Dataset de test, Nombre d'images de test, Pourcentage de réussite
+2, 128, catdog, 1589,3, cats_dogs, 378,66
+2, 128, catdog, 1589,5, cats_dogs, 378,66
+2, 128, catdog, 1589,10, cats_dogs, 378,NA
+2, 128, catdog, 1589,15, cats_dogs, 378,NA
+2, 128, catdog, 1589,25, cats_dogs, 378,72
+2, 128, catdog, 1589,50, cats_dogs, 378,NA
+9, 128,savane50,334,3,savane100,178,NA
+9, 128,savane50,334,5,savane100,178,NA
+9, 128,savane50,334,10,savane100,178,NA
+9, 128,savane50,334,15,savane100,178,55
+9, 128,savane50,334,25,savane100,178,51
+9, 128,savane50,334,50,savane100,178,51
+9, 128,savane100,693,3,savane100,178,8
+9, 128,savane100,693,5,savane100,178,10
+9, 128,savane100,693,10,savane100,178,10
+9, 128,savane100,693,15,savane100,178,5
+9, 128,savane100,693,25,savane100,178,8
+9, 128,savane100,693,50,savane100,178,9
+9,512,savane100,693,3,savane100,178,10
+9,512,savane100,693,5,savane100,178,NA
+9,512,savane100,693,10,savane100,178,7
+9,512,savane100,693,15,savane100,178,7
+9,512,savane100,693,25,savane100,178,7
+9,512,savane100,693,50,savane100,178,7
