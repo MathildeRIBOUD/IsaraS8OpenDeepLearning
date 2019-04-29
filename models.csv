@@ -5,7 +5,7 @@ Nombre de classes, Nombre de neurones dans la couche complètement connectée, Dat
 2, 128, catdog, 1589,15, cats_dogs, 378,63
 2, 128, catdog, 1589,25, cats_dogs, 378,72
 2, 128, catdog, 1589,50, cats_dogs, 378,66
-9, 128,savane50,334,3,savane100,178,NA
+9, 128,savane50,334,3,savane100,178,60
 9, 128,savane50,334,5,savane100,178,54
 9, 128,savane50,334,10,savane100,178,54
 9, 128,savane50,334,15,savane100,178,55
