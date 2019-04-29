@@ -4555,3 +4555,7 @@ dataset1/test_set/cat/cat.4007.jpg
 dataset1/single_prediction/what_is_this.jpg
 dataset3/training_set/rhinoceros/img_97.jpg
 dataset3/training_set/rhinoceros/img_98.jpg
+dataset1.7z
+dataset2.7z
+dataset3.7z
+.~lock.models.csv#
