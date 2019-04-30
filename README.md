@@ -16,7 +16,6 @@ Construit pour illustrer les TD sur Git, Python et Deep Learning du module S8-OP
 * Keras (deep learning package for Python) in Anaconda
 * Tensorflow in Anaconda (dont Tensorflow-eigen)
 * vs2013_runtime in Anaconda
-* Prolog
 
 
 *Résolution de certains problèmes avec l'installation par défaut de Keras dans la distribution Anaconda :*
